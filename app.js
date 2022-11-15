@@ -10,7 +10,7 @@ function f(){
 					p[1].innerHTML="IP: "+res0.data.ip+"<br />Hostname: "+res0.data.hostname+"<br />City: "+res0.data.city+"<br />Region: "+res0.data.region+"<br />Country: "+res0.data.country+"<br />Location: "+res0.data.loc+"<br />Organization: "+res0.data.org+"<br />Postal: "+res0.data.postal+"<br />Timezone: "+res0.data.timezone+"<br />Currency code: "+res1.data.currency_code+"<br />Currency name: "+res1.data.currency_name+"<br />";
 				});
 			p[2].innerHTML="If you want search again, first introduce the new ip and reload this page<br />";
-			p[3].innerHTML="If you want donate in BTC: A  | Thanks a lot<br />If you want donate in ETH: A  | Thanks a lot<br/>If you want donate in USDT: A  | Thanks a lot<br /><br />";
+			//p[3].innerHTML="If you want donate in BTC: A  | Thanks a lot<br />If you want donate in ETH: A  | Thanks a lot<br/>If you want donate in USDT: A  | Thanks a lot<br /><br />";
 		})
 		.catch(function(error){
 			console.log(error);
