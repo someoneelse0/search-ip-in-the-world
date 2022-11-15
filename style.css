@@ -1,0 +1,15 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	background-color:black;
+	color:cyan;
+}
+div div.dt p.pr{
+	color:red;
+}
+div div.dt p.plg{
+	color:darkorange;
+}
