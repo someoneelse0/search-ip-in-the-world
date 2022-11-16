@@ -4,12 +4,12 @@
 	box-sizing:border-box;
 }
 body{
-	background-color:black;
-	color:cyan;
+	background-color:gray;
+	color:black;
 }
 div div.dt p.pr{
 	color:red;
 }
-div div.dt p.plg{
+p.plg{
 	color:darkorange;
 }

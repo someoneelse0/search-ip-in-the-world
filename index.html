@@ -5,12 +5,13 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
 		<title>title</title>
 		<link rel="stylesheet" href="style.css" />
+		<script src="https://maps.googleapis.com/maps/api/js"></script>
 		<!-- Next line is necessary and before as well -->
 		<script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
 	</head>
 	<body>
 		<div>
-			<input type="text" placeholder="IP or HOSTNAME or DNS" />
+			<input type="text" placeholder="IP or DNS" />
 			<button>Search</button>
 			<div class="dt">
 				<p class="pr"></p>
@@ -19,9 +20,12 @@
 				<br />
 				<p class="pr"></p>
 				<br />
-				<p class="plg"></p>
+				<p class="pr"></p>
 			</div>
 		<div>
+		<br />
+		<p class="plg"></p>
+		<div id="map" style="width:1300px;height:550px;margin:10px;border:1px solid gray;"></div>
 		<script src="app.js"></script>
 	</body>
 </body>
